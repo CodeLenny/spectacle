@@ -11,6 +11,10 @@
     "develop": "spectacle -d test/fixtures/petstore.json",
     "server": "spectacle -s"
   },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/",
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sourcey/spectacle.git"
