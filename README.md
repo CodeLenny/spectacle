@@ -19,7 +19,8 @@ See a demo of Spectacle in action here: [http://cheesestore.github.io](http://ch
 
 This is a fork of [spectacle](https://github.com/sourcey/spectacle) that adds the following:
 
-- Updated [`grunt-sass`](https://github.com/sindresorhus/grunt-sass) to `v2.0.0`, which in turn uses `node-sass` `v4.x`, including the fix for sass/node-sass#1589.
+- :arrow_heading_up: **Merged upstream** Updated [`grunt-sass`](https://github.com/sindresorhus/grunt-sass) to `v2.0.0`, which in turn uses `node-sass` `v4.x`, including the fix for sass/node-sass#1589.
+- Added `json` Handlebars helper, allowing examples to be used
 
 ---
 
