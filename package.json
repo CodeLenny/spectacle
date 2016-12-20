@@ -7,8 +7,9 @@
     "spectacle": "bin/spectacle.js"
   },
   "scripts": {
-    "build": "spectacle test/fixtures/petstore.json",
-    "develop": "spectacle -d test/fixtures/petstore.json",
+    "build": "spectacle -l test/fixtures/cheese.png test/fixtures/cheese.json",
+    "test": "node bin/spectacle -l test/fixtures/cheese.png test/fixtures/cheese.json",
+    "develop": "spectacle -d",
     "server": "spectacle -s"
   },
   "publishConfig": {
